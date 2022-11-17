@@ -114,3 +114,68 @@ form input[type = "submit"]:hover {
   background-color: #ff69b4;
   border: 2px solid #ff69b4;
 }
+
+.box{
+position: absolute;
+width: 1440px;
+height: 1448px;
+left: 169px;
+top: 300px;
+}
+
+.girl{
+background: url(女の子背んが.png);
+}
+
+.box{
+position: absolute;
+width: 554px;
+height: 300px;
+left: 60px;
+top: 510px;
+
+background: #FBF092;
+mix-blend-mode: normal;
+}
+
+
+.box{
+position: absolute;
+width: 510px;
+height: 300px;
+left: 1320px;
+top: 810px;
+
+background:　#FE9ADC;
+mix-blend-mode: normal;
+}
+
+.sukekan{
+position: absolute;
+width: 586px;
+height: 140px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 87px;
+text-align: center;
+
+color: #000000;
+}
+
+.useapp{
+position: absolute;
+width: 445px;
+height: 174px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 87px;
+text-align: center;
+
+color: #000000;
+}
