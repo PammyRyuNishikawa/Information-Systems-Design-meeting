@@ -1,7 +1,3 @@
-body {
-  background-color: #DCDCDC;
-}
-
 p {
   font-weight: bold;
   text-align: center;
@@ -29,16 +25,40 @@ footer {
   width: auto;
 }
 
-.content {
-  padding: 0px 20px;
-}
-
 a {
   text-decoration: none;
 }
 
+button {
+  /* ブラウザ特有のスタイルを無効に */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  /* 整える */
+  margin: 1em 0; /* 前後の隙間 */
+  padding: 0.6em 1em; /* 塗りの余白 */
+  font-size: 1em; /* フォントサイズ */
+  background-color: #1aa1ff; /* 背景色 */
+  color: #FFF; /* テキストカラー */
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 3px; /* 角の丸み */
+  border: 0; /* 枠線を消す */
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+}
+
+/* ホバー時（カーソルをのせた時）の見た目 */
+button:hover {
+  background-color: #064fda; /* 背景色 */
+}
+
 body {
   background-color: #DCDCDC;
+}
+
+.box{
+  position: relative;
+  top:-100px;
 }
 
 form {
@@ -99,46 +119,4 @@ form input[type = "submit"]{
 form input[type = "submit"]:hover {
   background-color: #ff69b4;
   border: 2px solid #ff69b4;
-}
-
-.box1{
-position: absolute;
-width: 554px;
-height: 300px;
-left: 60px;
-top: 510px;
-
-background: #FBF092;
-mix-blend-mode: normal;
-}
-
-
-.box2{
-position: absolute;
-width: 510px;
-height: 300px;
-left: 1320px;
-top: 810px;
-
-background:　#FE9ADC;
-mix-blend-mode: normal;
-}
-
-.box{
-  position: relative;
-}
-.top-left {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  font-family:Meiryo UI;
-  font-size: 40px;
-}
-
-.bottom-left {
-  position: absolute;
-  bottom: 25px;
-  left: 800px;
-  font-family:Meiryo UI;
-  font-size: 40px;
 }
