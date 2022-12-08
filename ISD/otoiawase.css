@@ -5,6 +5,19 @@ form{
     font-size: 20px;
     }
     
+    header {
+      width: 100%;
+      height: 100px;
+      background-color: white;
+      align-items: center;
+    }
+    
+    .header-list li {
+      list-style: none;
+      float: right;
+      padding: 10px 10px;
+    }
+    
     .item{
     display: flex;
     align-items: center;
@@ -66,3 +79,15 @@ form{
     font-weight: bold;
     padding: 10px 25px;
     }
+
+    header {
+        background-color: white;
+        width: auto;
+      }
+      
+
+      .header-list li {
+        list-style: none;
+        float: right;
+        padding: 10px 10px;
+      }

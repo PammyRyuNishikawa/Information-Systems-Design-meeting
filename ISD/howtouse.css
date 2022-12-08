@@ -2,6 +2,20 @@ body{
     background-color: #FFECF8 ;
 }
 
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+  }
+  
+  .header-list li {
+    list-style: none;
+    float: right;
+    padding: 10px 10px;
+  }
+  
+
 h1{
     font-weight: 900;
     padding: 100px 80px;
