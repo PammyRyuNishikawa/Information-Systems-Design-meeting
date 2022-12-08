@@ -4,25 +4,28 @@ p {
 }
 
 header {
-  background-color: white;
-  width: auto;
-}
-
-ul {
   display: flex;
-  justify-content: flex-end
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  align-items: center;
 }
 
-li {
+.header-list li {
   list-style: none;
-  display: inline;
-  text-align: right;
-  padding-right: 0px;
+  float: right;
+  padding: 10px 10px;
 }
 
 footer {
   background-color: white;
   width: auto;
+}
+
+.footer-list li {
+  list-style: none;
+  float: left;
+  padding: 10px 10px;
 }
 
 a {
