@@ -1,0 +1,123 @@
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  align-items: center;
+}
+
+.header-list li {
+  list-style: none;
+  float: right;
+  padding: 10px 10px;
+}
+
+footer {
+  background-color: white;
+  width: auto;
+}
+
+.footer-list li {
+  list-style: none;
+  float: left;
+  padding: 10px 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  /* ブラウザ特有のスタイルを無効に */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  /* 整える */
+  margin: 1em 0; /* 前後の隙間 */
+  padding: 0.6em 1em; /* 塗りの余白 */
+  font-size: 2.2em; /* フォントサイズ */
+  background-color: #e52dbd; /* 背景色 */
+  color: #FFF; /* テキストカラー */
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 3px; /* 角の丸み */
+  border: 0; /* 枠線を消す */
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+}
+
+/* ホバー時（カーソルをのせた時）の見た目 */
+button:hover {
+  background-color: #e52dbd; /* 背景色 */
+}
+
+body {
+  background-color: #FFECF8;
+}
+
+.box{
+  position: relative;
+}
+
+form {
+  width: 400px;
+  padding: 40px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000;
+  text-align: center;
+}
+
+form h1,form p {
+  color: white;
+  font-weight: 500;
+}
+
+form p {
+  font-size: 10px;
+}
+
+form input[type = "id"],form input[type = "password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #ff69b4;
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  text-align: center;
+}
+
+form input[type = "id"]:focus,form input[type = "password"]:focus {
+  width: 280px;
+  background-color: #f0f8ff;
+}
+
+form input[type = "submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #f0f8ff;
+  padding: 15px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+  text-align: center;
+  cursor: pointer;
+}
+
+form input[type = "submit"]:hover {
+  background-color: #ff69b4;
+  border: 2px solid #ff69b4;
+}

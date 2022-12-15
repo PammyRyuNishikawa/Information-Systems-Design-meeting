@@ -1,0 +1,65 @@
+body{
+    background-color: #FFECF8 ;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    align-items: center;
+  }
+  
+  .header-list li {
+    list-style: none;
+    float: right;
+    padding: 10px 10px;
+  }
+  
+
+h1{
+    font-weight: 900;
+    padding: 100px 80px;
+    text-align:center
+}
+
+ul{
+    list-style: none;
+    text-align:center
+}
+
+h2{
+    text-align:center
+}
+
+dt{
+    background-color: #000; 
+    color:#FFECF8;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+dt:before{
+    content:"Q";
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+dd{
+    margin: 24px 16px 40px 32px;
+ line-height: 140%;
+ text-indent: -24px;
+}
+
+dd:before {
+ content: "A.";
+ font-weight: bold;
+ margin-right: 8px;
+}
+
+p1{
+    padding-left: 50px;
+}
+
+h5{
+    font-size: 150px;  
+  }
